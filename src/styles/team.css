@@ -1,0 +1,47 @@
+/* TEAM */
+.team-info {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.team-info h2 {
+  width: 75%;
+}
+
+.team-info span,
+.team-card span {
+  color: var(--clr-button);
+  font-weight: var(--fw-semiBold);
+}
+
+.team-card span {
+  margin-bottom: 1em;
+}
+
+.team-info p,
+.card p {
+  color: var(--clr-reg-text);
+}
+
+.team-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.card-transperant {
+  background-color: transparent;
+}
+
+.team-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

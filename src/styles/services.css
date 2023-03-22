@@ -1,0 +1,47 @@
+/* SERVICES */
+.services-info {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.services-info h2 {
+  width: 75%;
+}
+
+.services-info span {
+  color: var(--clr-button);
+  font-weight: var(--fw-semiBold);
+}
+
+.services-info p,
+.card p {
+  color: var(--clr-reg-text);
+}
+
+.services-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 42px;
+  padding: 3em 2em;
+}
+
+.card img {
+  width: 60%;
+  margin-bottom: 3em;
+}

@@ -1,0 +1,66 @@
+/* FOOTER */
+footer {
+  position: relative;
+  background-color: #0d165c;
+  height: 10rem;
+  margin-top: 30em;
+}
+
+.footer__main {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url("../images/Footer\ BG.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 12.5em 10em 5em 10em;
+  color: var(--clr-footer);
+}
+
+.footer strong,
+.footer h4 {
+  color: var(--clr-light);
+}
+
+.footer__upper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 5em;
+}
+
+.footer__info--text {
+  padding-left: 2em;
+}
+
+.footer__info--text span {
+  font-size: 0.875rem;
+}
+
+.footer__pages ul,
+.footer__informations ul {
+  list-style: none;
+  line-height: 2em;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__social img {
+  margin-right: 2em;
+  cursor: pointer;
+}
+
+.ToTopButton {
+  position: absolute;
+  z-index: 100;
+  right: 3em;
+  bottom: 10em;
+  cursor: pointer;
+}

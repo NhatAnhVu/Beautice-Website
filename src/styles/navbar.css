@@ -42,11 +42,3 @@
 .navbar__menu--active {
   color: var(--clr-active);
 }
-
-.navbar__menu--contact {
-  background-color: var(--clr-button);
-  padding: 0.5em 1.5em;
-  color: var(--clr-light);
-  border-radius: 50px;
-  font-weight: var(--fw-semiBold);
-}

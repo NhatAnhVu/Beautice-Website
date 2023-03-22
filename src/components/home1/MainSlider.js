@@ -13,7 +13,7 @@ const MainSlider = () => {
             It is a long established fact that a reader will be by the readable
             content of a page.
           </p>
-          <button>More Details</button>
+          <button className="pink-button">More Details</button>
         </div>
         <div>
           <img src={Slide1} alt="" />

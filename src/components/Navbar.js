@@ -23,8 +23,8 @@ const Navbar = () => {
         <a className="navbar__menu--item" href="!#">
           Blog
         </a>
-        <a className="navbar__menu--item navbar__menu--contact" href="!#">
-          Contact
+        <a className="navbar__menu--item" href="!#">
+          <button className="pink-button">Contact</button>
         </a>
       </div>
     </nav>

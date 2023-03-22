@@ -21,7 +21,7 @@ const ContactUs = () => {
             placeholder="Your inquiry here"
             className="contact-form-inquiry"
           />
-          <button>Send Message</button>
+          <button className="pink-button">Send Message</button>
         </form>
       </div>
     </section>

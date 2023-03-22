@@ -19,7 +19,7 @@ const About = () => {
           cras tellus enim.
         </p>
         <div className="about-info-button">
-          <button>Learn More</button>
+          <button className="pink-button">Learn More</button>
           <div className="play-button">
             <img src={PlayButton} alt="" /> Watch Video
           </div>

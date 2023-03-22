@@ -15,7 +15,7 @@ const MainSlider = () => {
           </p>
           <button className="pink-button">More Details</button>
         </div>
-        <div>
+        <div className="slider-img">
           <img src={Slide1} alt="" />
         </div>
       </div>

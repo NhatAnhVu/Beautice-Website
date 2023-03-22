@@ -18,7 +18,7 @@ const Teams = () => {
       </div>
       <div className="team-card">
         <div className="card card-transperant">
-          <img src={avatar1} alt="" />
+          <img className="team-avatar" src={avatar1} alt="" />
           <span>Surgeon</span>
           <h4>Briyan Nevalli</h4>
           <p>
@@ -32,7 +32,7 @@ const Teams = () => {
           </div>
         </div>
         <div className="card">
-          <img src={avatar2} alt="" />
+          <img className="team-avatar" src={avatar2} alt="" />
           <span>Dermatologist</span>
           <h4>Bella sebastian</h4>
           <p>
@@ -46,7 +46,7 @@ const Teams = () => {
           </div>
         </div>
         <div className="card card-transperant">
-          <img src={avatar3} alt="" />
+          <img className="team-avatar" src={avatar3} alt="" />
           <span>Stylist expert</span>
           <h4>Lilly Adams</h4>
           <p>

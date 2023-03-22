@@ -7,6 +7,7 @@
 
 .contact-section img {
   width: 50%;
+  object-fit: cover;
 }
 
 .contact-form span {
@@ -35,4 +36,18 @@ textarea {
 
 .contact-form-inquiry {
   height: 10em;
+}
+
+@media (max-width: 800px) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    text-align: center;
+  }
+
+  .contact-form p {
+    width: 100%;
+  }
 }

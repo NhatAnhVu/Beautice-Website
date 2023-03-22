@@ -56,6 +56,12 @@ body {
   margin-bottom: 5em;
 }
 
+@media (max-width: 800px) {
+  .section {
+    width: 90%;
+  }
+}
+
 .home1 {
   background-image: url("./images/Slide\ Background.svg"),
     url("./images/Background\ Bubble\ Right.svg"),

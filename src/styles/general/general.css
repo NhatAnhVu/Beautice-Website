@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: var(--fs-body);
+  background-color: var(--clr-bg);
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 5em;
+}
+
+@media (max-width: 800px) {
+  .section {
+    width: 90%;
+  }
+}

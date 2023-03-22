@@ -1,0 +1,14 @@
+@import url("./mainSlider.css");
+@import url("./services.css");
+@import url("./about.css");
+@import url("./team.css");
+@import url("./contact.css");
+
+.home1 {
+  background-image: url("../../images/Slide\ Background.svg"),
+    url("../../images/Background\ Bubble\ Right.svg"),
+    url("../../images/Background\ Bubble\ Left.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top left, right, bottom left;
+  background-size: 90%, 70%, 85%;
+}
